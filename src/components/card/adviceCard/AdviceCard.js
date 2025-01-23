@@ -12,10 +12,10 @@ const AdviceCard = () => {
                 <div className="advice-quote">
                 <p>"{advice.advice}"</p>
                 </div>
-                <img src='../../../../../pattern-divider-desktop.svg' className="card-divider"/>
+                <img src='../../../../../pattern-divider-desktop.svg' alt="divider-icon" className="card-divider"/>
             </div>
             <div className="button-container" onClick={()=> fetchAdvice()}>
-                <img src='../../../../../icon-dice.svg' />
+                <img src='../../../../../icon-dice.svg' alt="dice-icon" />
             </div>
         </div>
     )
