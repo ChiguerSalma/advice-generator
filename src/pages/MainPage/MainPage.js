@@ -10,6 +10,7 @@ const MainPage = () => {
     const {fetchAdvice } = useAdviceContext();
     useEffect(() => {
         fetchAdvice();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
 
